@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cc{
+    width: 20%;
+    float: left;
+    background-color: rgba(37, 37, 37, 0.918);
+    height: 100vh;
+    color: white;
+    font-size: large;
+}
+
+.cc ul{
+    list-style-type: none;
+}
+.cc li{
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.cc li:hover{
+    color: grey;
+}
+
+.cc2{
+    width: 80%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+}
+
+.cc2 div{
+    height: 25%;
+}
+
+.cc2 div p{
+    display: flex;
+    justify-content: center;
+}
+
+.celeste{
+    background-color: skyblue;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+.naranjo{
+    background-color: orange;
+}
+.rojo{
+    background-color: red;
+}
+
+.celeste h1{
+    margin: 0;
+}
+.amarillo h1{
+    margin: 0;
+}
+.naranjo h1{
+    margin: 0;
+}
+.rojo h1{
+    margin: 0;
+}
